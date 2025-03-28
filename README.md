@@ -46,10 +46,14 @@ npm start
 
 ### Example usage
 
+```sh
 curl -H "Authorization: Bearer YOUR_TOKEN" http://localhost:3000/logs
 curl -H "Authorization: Bearer YOUR_TOKEN" http://localhost:3000/logs/error?lines=500
+```
 
 ### Docker (optional)
 
+```sh
 docker build -t logonaut .
 docker run -d -p 3000:3000 --env-file .env logonaut
+```
