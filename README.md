@@ -42,7 +42,9 @@ PORT=3000
 
 ### Then start the server:
 
+```sh
 npm start
+```
 
 ### Example usage
 
